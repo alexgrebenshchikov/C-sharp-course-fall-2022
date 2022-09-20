@@ -7,7 +7,7 @@ using System.Text;
 // Task 1
 public class MyHashMap {
     public MyHashMap() {
-        capacity = 2;
+        capacity = 16;
         data = GetInitializedData();
         size = 0;
     }
